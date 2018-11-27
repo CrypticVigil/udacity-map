@@ -1,0 +1,33 @@
+html, body {
+  	height: 100%;
+	margin: 0;
+	padding: 0;
+	color: #AED6F1;
+}
+
+#root {
+	height: 100%;
+}
+
+.App {
+	display: flex;
+	flex-wrap: wrap;
+	height: 100%;
+}
+
+#list {
+	width: 25%;
+	height: 100%;
+	background-color: #212F3D;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+#list h1 {
+	margin-top: 0;
+}
+
+#map {
+	height: 100%;
+	width: 75%;
+}
