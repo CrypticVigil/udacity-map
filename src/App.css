@@ -2,7 +2,6 @@ html, body {
   	height: 100%;
 	margin: 0;
 	padding: 0;
-	color: #AED6F1;
 }
 
 #root {
@@ -21,10 +20,27 @@ html, body {
 	background-color: #212F3D;
 	padding: 30px;
 	box-sizing: border-box;
+	color: #AED6F1;
 }
 
 #list h1 {
 	margin-top: 0;
+}
+
+#list ul {
+ 	padding-left: 0;
+}
+
+.filter {
+	width: 100%;
+	box-sizing: border-box;
+	height: 30px;
+	padding-left: 8px;
+}
+
+.location {
+	list-style: none;
+	padding-bottom: 10px;
 }
 
 #map {
